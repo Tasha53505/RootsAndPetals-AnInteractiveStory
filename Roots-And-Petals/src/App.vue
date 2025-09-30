@@ -1,8 +1,13 @@
-<script setup></script>
+
+
+<script setup>
+import Seed from './components/Seed.vue';
+</script>
+
 
 <template>
-  <h1>You did it!</h1>
-
+  <div id="app">
+    <Seed />
+    <section style="height: 100vh; background: #87ceeb;">Next Section</section>
+  </div>
 </template>
-
-<style scoped></style>
